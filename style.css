@@ -73,6 +73,14 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     margin-left: 2%;
 }
 
+.mob1le{
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    left:40%;
+    color: aqua;
+}
+
 
 
 
