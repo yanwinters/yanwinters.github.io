@@ -92,7 +92,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 .background1{
     position: absolute;
     top:116px;
-    left: 37%;
+    left: 34%;
 }
 
 .text0{
@@ -111,7 +111,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     -webkit-transition: all 2s ease-in-out;
     transition: all 2s ease-in-out;
     top: 0px;
-    left: 30%;
+    left: 29%;
 }
 
 .img1:hover{
