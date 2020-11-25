@@ -53,7 +53,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     border-left: 2px solid black;
     height: 3900px;
     position: absolute;
-    left: 72.2%;
+    left: 72.1%;
     margin-left: 0px;
     top: 0;
 }
@@ -188,7 +188,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     -webkit-transition: all 2s ease-in-out;
     transition: all 2s ease-in-out;
     top: 821px;
-    left: 50.164%;
+    left: 50.18%;
 }
 
 .img4:hover{
