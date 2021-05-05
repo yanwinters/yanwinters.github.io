@@ -1,7 +1,13 @@
 body {
-  overflow:hidden;
+  overflow: hidden;
   margin: 0px;
   padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-family: "Lucida Sans Unicode"
 }
 
 #back {
