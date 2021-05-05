@@ -72,7 +72,7 @@
         if(length < properties.lineLength){
           opacity = 1-length/properties.lineLength;
           ctx.lineWidth = '0.5';
-          ctx.strokeStyle = 'rgba(255, 40, 40, '+opacity+')';
+          ctx.strokeStyle = 'rgba(67, 43, 30, '+opacity+')';
           ctx.beginPath();
           ctx.moveTo(x1, y1);
           ctx.lineTo(x2, y2);
