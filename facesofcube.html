@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="facesofcube.css">
+  <link rel="stylesheet" href="base-style.css">
+  <link rel="stylesheet" href="slider.css">
+</head>
+<body>
+<div class="burger-menu">
+  <a href="#" class="burger-menu__button">
+    <span class="burger-menu__lines"></span>
+  </a>
+  <nav class="burger-menu__nav">
+    <a href="#negation" class="burger-menu__link">ОТРИЦАНИЕ</a>
+    <a href="#anger" class="burger-menu__link">ГНЕВ</a>
+    <a href="#bargain" class="burger-menu__link">ТОРГ</a>
+    <a href="#depression" class="burger-menu__link">ДЕПРЕССИЯ</a>
+    <a href="#adoption" class="burger-menu__link">ПРИНЯТИЕ</a>
+    <a href="#action" class="burger-menu__link">ДЕЙСТВИЕ</a>
+  </nav>
+  <div class="burger-menu__overlay">
+  </div>
+</div>
+<section id="negation">
+    <div id="container1">
+      <div class="sliderbutton1" id="slideleft1" onclick="slideshow.move(-1)"></div>
+      <div id="slider1" style="overflow: hidden;">
+        <ul>
+          <li><img src="1.jpg" width="900" height="600" alt="Первое фото"></li>
+          <li><img src="2.jpg" width="900" height="600" alt="Второе фото"></li>
+          <li><img src="3.jpg" width="900" height="600" alt="Третье фото"></li>
+          <li><img src="4.jpg" width="900" height="600" alt="Четвертое фото"></li>
+          <li><img src="5.jpg" width="900" height="600" alt="Пятое фото"></li>
+          <li><img src="6.jpg" width="900" height="600" alt="Шестое фото"></li>
+        </ul>
+      </div>
+      <div class="sliderbutton1" id="slideright1" onclick="slideshow.move(1)"></div>
+      <ul id="pagination1" class="pagination1" style="list-style-type: none;">
+        <li onclick="slideshow.pos(0)"></li>
+        <li onclick="slideshow.pos(1)"></li>
+        <li onclick="slideshow.pos(2)"></li>
+        <li onclick="slideshow.pos(3)"></li>
+        <li onclick="slideshow.pos(4)"></li>
+        <li onclick="slideshow.pos(5)"></li>
+      </ul>
+    </div>
+  <span id="negationtext">ОТРИЦАНИЕ</span>
+</section>
+<section id="anger">
+
+  <span id="angertext">ГНЕВ</span>
+  <div class="image2"></div>
+</section>
+<section id="bargain">
+  <span id="bargaintext">ТОРГ</span>
+  <div class="image3"></div>
+</section>
+<section id="depression">
+  <span id="depressiontext">ДЕПРЕССИЯ</span>
+  <div class="image4"></div>
+</section>
+<section id="adoption">
+  <span id="adoptiontext">ПРИНЯТИЕ</span>
+  <div class="image5"></div>
+</section>
+<section id="action">
+  <span id="actiontext">ДЕЙСТВИЕ</span>
+  <div class="image6"></div>
+</section>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="facesofcube.js"></script>
+<script src="tiny-slider.js"></script>
+<script src="slider.js"></script>
+</body>
+</html>
