@@ -23,6 +23,7 @@
     dotsCount  : 300,
     dotVelocity: 2,
     distance   : 70,
+    colorAnim  : 'rgba(128, 106, 81, 1)',
   }
 
   function drawRect(color, x, y, w, h, shadowColor, shadowBlur) {
@@ -40,7 +41,7 @@
     }
 
     redrawDot() {
-      let color = 'yellow';
+      let color = cfg.colorAnim;
       let size = cfg.dotSize;
       let x = this.pos.x - size / 2;
       let y = this.pos.y - size / 2;
